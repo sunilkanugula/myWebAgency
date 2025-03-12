@@ -15,14 +15,14 @@ import {
 export default function Footer() {
   const socialLinks = [
     { icon: FaFacebookF, href: 'https://facebook.com', label: 'Facebook' },
-    { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
-    { icon: FaLinkedinIn, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: FaTwitter, href: 'https://x.com/LaunchMyTech', label: 'Twitter' },
+    { icon: FaInstagram, href: 'https://www.instagram.com/launchmytech/', label: 'Instagram' },
+    { icon: FaLinkedinIn, href: 'https://www.linkedin.com/company/launchmytech/?viewAsMember=true', label: 'LinkedIn' },
     { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
     { icon: FaDribbble, href: 'https://dribbble.com', label: 'Dribbble' },
     { icon: FaBehance, href: 'https://behance.net', label: 'Behance' },
     { icon: FaMediumM, href: 'https://medium.com', label: 'Medium' },
-    { icon: FaYoutube, href: 'https://youtube.com', label: 'YouTube' },
+    { icon: FaYoutube, href: 'https://www.youtube.com/@LaunchMyTech', label: 'YouTube' },
     { icon: FaDiscord, href: 'https://discord.com', label: 'Discord' }
   ];
 

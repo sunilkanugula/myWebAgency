@@ -12,7 +12,7 @@ const getBotResponse = (message: string) => {
   } else if (lowerMsg.includes('website') || lowerMsg.includes('web')) {
     return "We offer full-stack web development services including custom websites, e-commerce solutions, and web applications. Would you like to know more about any specific service?";
   } else if (lowerMsg.includes('contact') || lowerMsg.includes('reach')) {
-    return "You can reach us via email at contact@webagency.com or call us at +1-234-567-8900. Would you like me to schedule a call for you?";
+    return "You can reach us via email at contact@launchmytech.com or call us at +1-234-567-8900. Would you like me to schedule a call for you?";
   } else if (lowerMsg.includes('service')) {
     return "We offer various services including web development, UI/UX design, digital marketing, and more. Which service are you interested in?";
   } else if (lowerMsg.includes('portfolio') || lowerMsg.includes('work')) {

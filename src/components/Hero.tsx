@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -17,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.7 }}
           className="text-5xl md:text-6xl font-extrabold leading-tight"
         >
-          Your Vision, <span className="text-blue-500">Our Code – Delivering </span>
+          Your Vision, <span className="text-[#3388ff]">Our Code – Delivering </span>
           <br /> Excellence Online
         </motion.h1>
 
@@ -39,12 +40,15 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-8 flex justify-center gap-4"
         >
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all shadow-md">
+         <Link to="/services"> <button className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all shadow-md">
             Get Started
           </button>
-          <button className="border-2 border-white text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-all shadow-md">
-            View Portfolio
-          </button>
+          </Link>
+          <Link to="/portfolio">
+            <button className="border-2 border-white text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-all shadow-md">
+              View Portfolio
+            </button>
+          </Link>
         </motion.div>
       </div>
     </div>

@@ -7,7 +7,6 @@ import {
   ChartBarIcon,
   ShieldCheckIcon,
   DevicePhoneMobileIcon,
-  CloudIcon,
   CameraIcon,
   CommandLineIcon,
   GlobeAltIcon,
@@ -57,12 +56,7 @@ const services = [
     icon: DevicePhoneMobileIcon,
     color: 'from-blue-500 to-indigo-600',
   },
-  {
-    title: 'Cloud Services',
-    description: 'Scalable cloud solutions and infrastructure management.',
-    icon: CloudIcon,
-    color: 'from-indigo-500 to-blue-600',
-  },
+
   {
     title: 'Content Creation',
     description: 'High-quality visual and written content for your brand.',
