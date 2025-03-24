@@ -9,7 +9,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import ThemeToggle from './components/ThemeToggle';
-import ChatBot from './components/ChatBot';
+import WhatsAppButton from './components/WhatsappButton';
+
 
 function App() {
   const isDarkMode = useThemeStore((state) => state.isDarkMode);
@@ -18,9 +19,9 @@ function App() {
     <Router>
       <div className={`min-h-screen ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'}`}>
         <Cursor />
-        <ChatBot />
+       
         <Navbar />
-        
+        <WhatsAppButton/>
         <Routes>
           <Route path="/" element={
             <>
