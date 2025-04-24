@@ -42,7 +42,7 @@ const Partners = () => {
               alt="ROMPIT Technologies Logo"
               className="w-32 h-32 mx-auto object-contain mb-4"
             />
-            <h3 className="text-lg font-bold text-white mb-2">ROMPIT Technologies</h3>
+            <h3 className="text-lg font-bold text-white mb-2">ROMPIT TECHNOLOGIES</h3>
             <p className="text-gray-400 text-sm">
               Empowering innovation through cutting-edge tech solutions.
             </p>
