@@ -8,8 +8,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
-import ThemeToggle from './components/ThemeToggle';
 import WhatsAppButton from './components/WhatsappButton';
+import Partners from './components/Partners';
 
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
               <Services />
               <Industries />
               <Portfolio />
+              <Partners/>
               <Contact />
             </>
           } />
@@ -38,6 +39,7 @@ function App() {
               <Services />
               <Industries />
               <Portfolio />
+              <Partners/>
               <Contact />
             </>
           } />
